@@ -362,29 +362,26 @@ I also write shell script for faster usage:
 
 ## CI Builds
 
-CI | Build status | Config File | Description
+CI | Config File | Description
 :--- | :--- | :--- | :---
-CircleCI | [![CircleCI](https://circleci.com/gh/VenkateshDoijode/k6-performance-test/tree/main.svg?style=svg)](https://circleci.com/gh/VenkateshDoijode/k6-performance-test/tree/main) | [config.yml](.circleci/config.yml) | Test local.js with standard output files stored in CircleCI (using Orbs)
-CircleCI - AWS set up | Not activated | [config-aws-firewall.yml](.circleci/config-aws-firewall.yml) | [Load Test Behind the Firewall](https://k6.io/blog/integrating-load-testing-with-circleci/)
-CircleCI - Basic | Not activated | [config-basic.yml](.circleci/config-basic.yml) | Basic run 
-CircleCI - Cloud | Not activated | [config-cloud.yml](.circleci/config-cloud.yml) | Cloud execution
-CircleCI - Docker with result output | Not activated | [config-result-docker.yml](.circleci/config-result-docker.yml) | Cloud execution
-Azure Pipelines - Docker | Not activated | [azure-pipelines.docker.yaml](./azure/azure-pipelines.docker.yaml) | Azure Pipelines with Docker images
-Azure Pipelines - Manual Installation | Not activated | [azure-pipelines.manual.yaml](./azure/azure-pipelines.manual.yaml) | Azure Pipelines with manual installation of k6
-Github Actions - k6 | [![Github - k6](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6.yaml/badge.svg)](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6.yaml) | [k6.yml](.github/workflows/k6.yml) | Github Actions with local test run
-Github Actions - Docker | [![Github - Docker](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6-docker.yaml/badge.svg)](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6-docker.yaml) | [k6-docker.yaml](.github/workflows/k6-docker.yaml) | Github Actions with docker
-Github Actions - Windows | [![Github - Windows](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6-wins.yaml/badge.svg)](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6-wins.yaml) | [k6-wins.yaml](.github/workflows/k6-wins.yaml) | Github Actions with manual installation on Windows
-Github Actions - Mac | [![Github - Mac](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6-mac.yaml/badge.svg)](https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6-mac.yaml) | [k6-mac.yaml](.github/workflows/k6-mac.yaml) | Github Actions with manual installation on Mac
+CircleCI | [config.yml](.circleci/config.yml) | Test local.js with standard output files stored in CircleCI (using Orbs)
+CircleCI - AWS set up | [config-aws-firewall.yml](.circleci/config-aws-firewall.yml) | [Load Test Behind the Firewall](https://k6.io/blog/integrating-load-testing-with-circleci/)
+CircleCI - Basic | [config-basic.yml](.circleci/config-basic.yml) | Basic run 
+CircleCI - Cloud | [config-cloud.yml](.circleci/config-cloud.yml) | Cloud execution
+CircleCI - Docker with result output | [config-result-docker.yml](.circleci/config-result-docker.yml) | Cloud execution
+Azure Pipelines - Docker | [azure-pipelines.docker.yaml](./azure/azure-pipelines.docker.yaml) | Azure Pipelines with Docker images
+Azure Pipelines - Manual Installation | [azure-pipelines.manual.yaml](./azure/azure-pipelines.manual.yaml) | Azure Pipelines with manual installation of k6
+Github Actions - k6 | [k6.yml](.github/workflows/k6.yml) | Github Actions with local test run
+Github Actions - Docker | [k6-docker.yaml](.github/workflows/k6-docker.yaml) | Github Actions with docker
+Github Actions - Windows | [k6-wins.yaml](.github/workflows/k6-wins.yaml) | Github Actions with manual installation on Windows
+Github Actions - Mac | [k6-mac.yaml](.github/workflows/k6-mac.yaml) | Github Actions with manual installation on Mac
 
 ## Author
 	
 <h4 align="center">
 	venkateshwara-doijode - Senior QA Automation Engineer
 </h4>
-    <h5 align="center">
-	<a href="VenkateshDoijode@gmail.com">VenkateshDoijode@gmail.com</a>
-    </h5>
-<p align="center">
+   <p align="center">
 	 <a alt="Github" href="https://github.com/VenkateshDoijode">
     <img src="https://user-images.githubusercontent.com/25218255/47360756-794c1f00-d6fa-11e8-86fa-7b1c2e4dda92.png" width="50">
   </a>
