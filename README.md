@@ -363,7 +363,7 @@ I also write shell script for faster usage:
 ## CI Builds
 
 CI | Config File | Description
-:--- | :--- | :--- | :---
+:--- | :--- | :---
 CircleCI | [config.yml](.circleci/config.yml) | Test local.js with standard output files stored in CircleCI (using Orbs)
 CircleCI - AWS set up | [config-aws-firewall.yml](.circleci/config-aws-firewall.yml) | [Load Test Behind the Firewall](https://k6.io/blog/integrating-load-testing-with-circleci/)
 CircleCI - Basic | [config-basic.yml](.circleci/config-basic.yml) | Basic run 
