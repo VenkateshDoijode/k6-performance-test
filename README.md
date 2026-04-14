@@ -1,23 +1,10 @@
 <h1 align="center">
   <br>
   <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/badge.png" alt="badge" width="800px"></a>
-  <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/0691f9dad7cfe6819652fc525da5ca82b16b2f92/covers/dash.png" alt="dash" ></a>
+  <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/dash.png" alt="dash" ></a>
 </h1>
 
 <h3 align="center" style="bold">An automation testing framework for performance test based on <a href="https://k6.io/">k6</a>. With <a href="https://www.influxdata.com/">InfluxDB</a>, <a href="https://grafana.com/">Grafana Dashboard</a> for better visualizations and CI process intergrated by <a href="https://circleci.com/">CircleCI</a>, <a href="https://azure.microsoft.com/en-us/services/devops/pipelines/">Azure Pipelines</a>, <a href="https://github.com/features/actions">Github Actions</a>.</h3>
-
-<p align="center">
-  <a alt="CircleCI" href="https://circleci.com/gh/VenkateshDoijode/k6-performance-test/tree/main">
-    <img src="https://circleci.com/gh/VenkateshDoijode/k6-performance-test/tree/main.svg?style=svg">
-  </a>
-  <a alt="GitHub Actions - Main" href="https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6.yaml">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/actions/workflows/k6.yaml/badge.svg">
-  </a>
-  <a alt="Azure Pipelines" href="https://trongtuyen131296.visualstudio.com/k6-performance-test/_build/latest?definitionId=2&branchName=main">
-    <img src="https://trongtuyen131296.visualstudio.com/k6-performance-test/_apis/build/status/VenkateshDoijode.k6-performance-test?branchName=main">
-  </a>
-</p>
-
 
 ## Table of Contents
 
@@ -153,7 +140,7 @@
 #### The example with making HTTP request and using stages in k6 (ram-up and ramp-down)
 
 <p align="center">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/04b0463571cf336369ea9f0927fa918570daeda2/covers/test-1.png" width="580px">
+    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/test-1.png" width="580px">
 </p>
 
 - The configuration of stages would be set inside options, and there are 3 stages described in example
@@ -164,7 +151,7 @@
 #### The example with cloud execution (custom load zones) and thresholds
 
 <p align="center">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/04b0463571cf336369ea9f0927fa918570daeda2/covers/test-2.png" width="650px">
+    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/test-2.png" width="650px">
 </p>
 
 - In line 5, we used Rate, one of four custom metrics provided by k6. Rate is an object for representing a custom metric keeping track of the percentage of added values that are non-zero. We put this Rate ("failed requests") into threshold to check fail rate had to be < 10%
@@ -284,7 +271,7 @@ For more info: [Generate constant request rate in k6](https://k6.io/blog/ref-how
 - [Docker](https://www.docker.com/): is a platform for containers. Docker Compose adds the ability to bundle multiple containers together into complex integrated applications.
 
 <p align="center">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/cf8f5b62b362bdb4f14e240095b15c882901d2be/covers/influxdb-grafana.png" width="800px">
+    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/influxdb-grafana.png" width="800px">
 </p>
 
 ### Set up to run
@@ -292,7 +279,7 @@ For more info: [Generate constant request rate in k6](https://k6.io/blog/ref-how
 #### docker-compose.yml
 
 <p align="center">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/cf8f5b62b362bdb4f14e240095b15c882901d2be/covers/docker-compose.png" width="780px">
+    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/docker-compose.png" width="780px">
 </p>
 
 - There are 3 servers and two networks where
@@ -305,13 +292,13 @@ For more info: [Generate constant request rate in k6](https://k6.io/blog/ref-how
 - grafana-datasource.yaml: configures Grafana to use InfluxDB as a data source, connect to the database over the local docker network on port 8086
 
 <p align="center">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/cf8f5b62b362bdb4f14e240095b15c882901d2be/covers/grafana-datasource.png" width="280px">
+    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/grafana-datasource.png" width="280px">
 </p>
 
 - grafana-dashboard.yaml: configures Grafana to load a K6 dashboard from the /var/lib/grafana/dashboards directory
 
 <p align="center">
-    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/cf8f5b62b362bdb4f14e240095b15c882901d2be/covers/grafana-dashboard.png" width="350px">
+    <img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/grafana-dashboard.png" width="350px">
 </p>
 
 - dashboard/k6-load-testing-results_rev3.json: a JSON configuration of a K6/InfluxDB dashboard with few modifications
