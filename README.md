@@ -17,7 +17,6 @@
 - [Convert Other Tests To k6](#convert-other-tests-to-k6)
 - [CI Builds](#ci-builds)
 - [Author](#author)
-- [License](#license)
 
 ## Changelogs
 
