@@ -1,7 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/0691f9dad7cfe6819652fc525da5ca82b16b2f92/covers/ATWT_background.PNG"></a>
-  <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/44f59f794a525f583d536c023359f28a9a0bc192/covers/badge.png" alt="badge" width="800px"></a>
+  <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/main/covers/badge.png" alt="badge" width="800px"></a>
   <a><img src="https://github.com/VenkateshDoijode/k6-performance-test/blob/0691f9dad7cfe6819652fc525da5ca82b16b2f92/covers/dash.png" alt="dash" ></a>
 </h1>
 
