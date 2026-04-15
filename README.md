@@ -72,7 +72,7 @@
 
 #### Run test on cloud
 
--  To begin, you must first register a [k6 Cloud](https://k6.io/cloud/) account and then log into your account via the CLI.
+-  To begin, you must first register a [k6 Cloud](https://grafana.com/docs/grafana-cloud/) account and then log into your account via the CLI.
 
 ```bash
 	k6 login cloud
@@ -84,7 +84,7 @@
 	k6 cloud <path to test file>
 ```
 
-- For more info: [Cloud test via CLI](https://k6.io/docs/cloud/creating-and-running-a-test/cloud-tests-from-the-cli/)
+- For more info: [Cloud test via CLI](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/use-the-cli/)
 
 #### Run test with options
 
@@ -100,7 +100,7 @@
 	k6 run --out json=full.json --summary-export=summary.json script.js
 ```
 
-- For more info: [Running k6](https://k6.io/docs/getting-started/running-k6/)
+- For more info: [Running k6](https://grafana.com/docs/k6/latest/using-k6/run-k6-test-script/)
 
 ## Write Test
 
@@ -132,7 +132,7 @@
 
 :four: Teardown code - Test-wide level: The teardown are only called once for a test. Teardown is called at the end of a test, after the VU stage (default function).
 
-- For more info: [k6 Test Life Cycle](https://k6.io/docs/using-k6/test-life-cycle/)
+- For more info: [k6 Test Life Cycle](https://grafana.com/docs/k6/latest/using-k6/test-lifecycle/)
 
 ### Example test
 
@@ -241,7 +241,7 @@
 - R: the number of requests per VU iteration
 - T: a value larger than the time needed to complete a VU iteration
 
-For more info: [Generate constant request rate in k6](https://k6.io/blog/ref-how-to-generate-a-constant-request-rate-in-k6/)
+For more info: [Generate constant request rate in k6](https://grafana.com/docs/k6/latest/using-k6/scenarios/executors/constant-arrival-rate/)
 
 ### More testing type examples
 
