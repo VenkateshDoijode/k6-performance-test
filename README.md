@@ -52,7 +52,7 @@
 
 ## Installation
 
-- Head to [k6 Installation](https://k6.io/docs/getting-started/installation/) for your k6 installation
+- Head to [k6 Installation]([https://k6.io/docs/getting-started/installation/](https://grafana.com/docs/k6/latest/set-up/install-k6/)) for your k6 installation
 
 - Use npm to install the dependencies (if any)
 
